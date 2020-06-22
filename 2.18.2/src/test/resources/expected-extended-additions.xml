@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <notification
+            target_group="USER"
+            user_id="U000011"
+            severity_level="INFO"
+            message="Message"
+            origin="actions"
+    />
+
+    <notification_addition additions_key="textColor"
+                               additions="blue"
+    />
+
+    <notification_addition additions_key="backgroundColor"
+                               additions="red"
+    />
+</dataset>
