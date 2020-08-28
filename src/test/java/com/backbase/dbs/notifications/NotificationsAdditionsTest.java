@@ -48,6 +48,7 @@ import org.springframework.web.context.WebApplicationContext;
         "spring.config.additional-location=classpath:/apiExtension.yml",
         "spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration",
         "backbase.access-control.enabled=false",
+        "backbase.audit.enabled=false",
         "backbase.notifications.approval.enabled=false",
     })
 @TestExecutionListeners({
